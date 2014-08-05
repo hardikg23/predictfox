@@ -1,0 +1,108 @@
+.match-container{
+    position: absolute;
+    top: 2px;
+    height: 115px;
+    width: 900px;
+    background-color: #212368;
+}
+.main-container{
+    position: absolute;
+    top: 150px;
+    height: 600px;
+    width: 900px;
+}
+.main-body{
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 67px;
+}
+.table-match-container{
+    border-left: 1px solid #CFCFCF;
+    border-top: 1px solid #CFCFCF;
+    border-bottom: 1px solid #CFCFCF;
+    height: 100%;
+}
+.table-match-container td{
+    border-right: 1px solid #CFCFCF;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.createLeague-head{
+    background: -webkit-linear-gradient(#001685, #00659F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#001685, #00659F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#001685, #00659F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#001685, #00659F); /* Standard syntax */
+    height: 25px;
+    padding:4px 8px 2px ;
+    color: white;
+    border-radius:5px;
+}
+.joinCreateLeague{
+
+}
+.joinCreateLeagueTable{
+    font-family: AR JULIAN;
+    font-size: 11px;
+    color: #6D6D6D;
+    padding-left: 10px;
+}
+.input-text{
+    color: #2D2D2D;
+    font-family: Calibri;
+    font-size: 12px;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    height: 24px;
+}
+.create-button{
+    font-family: AR JULIAN;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid silver;
+    background-color: #0A0059;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.join-button{
+    font-family: AR JULIAN;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid silver;
+    background-color: #660078;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.league-header{
+    background: -webkit-linear-gradient(#001685, #00659F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#001685, #00659F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#001685, #00659F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#001685, #00659F); /* Standard syntax */
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Lao UI;
+}
+.main-league-container-item{
+    color: #444444;
+    text-decoration: none;
+    border-bottom:  1px solid silver;
+}
+.main-league-container-item:hover{
+    -moz-box-shadow: 0 0 1px 1px #888;
+    -webkit-box-shadow: 0 0 1px 1px #888;
+    box-shadow: 0 0 1px 1px #888;
+}
+
+.main-league-container{
+    border: 1px solid silver;
+    font-size: 13px;
+    font-family: Lao UI;
+    color: #818181;
+}
